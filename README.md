@@ -49,8 +49,6 @@ Download the ChromeDriver that matches your Chrome version and place the executa
 2. iOS: install an ntfy-compatible client from the App Store (or a web push-capable client) and subscribe to the same topic.
 3. Test a push locally:
 ```bash
-python test_ntfy.py
-# or using curl
 curl -d "Test message" https://ntfy.sh/csci599
 ```
 
